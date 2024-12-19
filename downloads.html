@@ -20,7 +20,7 @@
                     Released November 6, 2024
                 </li>
                 <li>
-                    <a href="https://downloads.apache.org/kafka/3.9.0/RELEASE_NOTES.html">Release Notes</a>
+                    <a href="https://dlcdn.apache.org/kafka/3.9.0/RELEASE_NOTES.html">Release Notes</a>
                 </li>
                 <li>
                     Docker image: <a href="https://hub.docker.com/layers/apache/kafka/3.9.0/images/sha256-be37a49a4466f6620e2b67614dc2185e35d0e02e5cdc04ad5735ddd368a76b3e">apache/kafka:3.9.0</a>.
@@ -29,18 +29,26 @@
                     Docker Native image: <a href="https://hub.docker.com/layers/apache/kafka-native/3.9.0/images/sha256-ecf23c833391b00803876332b8642e261e675237e133cba8bc6a59ab8292a4a6">apache/kafka-native:3.9.0</a>.
                 </li>
                 <li>
-                    Source download: <a href="https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz">kafka-3.9.0-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz.sha512">sha512</a>)
+                    <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                    Source download: <a href="https://dlcdn.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz">kafka-3.9.0-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz.sha512">sha512</a>)
                 </li>
                 <li>
                     Binary downloads:
                     <ul>
-                        <li>Scala 2.12 &nbsp;- <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz">kafka_2.12-3.9.0.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz.sha512">sha512</a>)</li>
-                        <li>Scala 2.13 &nbsp;- <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz">kafka_2.13-3.9.0.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz.sha512">sha512</a>)</li>
+                        <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                        <li>Scala 2.12 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz">kafka_2.12-3.9.0.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz.sha512">sha512</a>)</li>
+                        <li>Scala 2.13 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz">kafka_2.13-3.9.0.tgz</a> (<a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz.sha512">sha512</a>)</li>
                     </ul>
                     We build for multiple versions of Scala. This only matters if you are using Scala and you want a version
                     built for the same Scala version you use. Otherwise, any version should work (2.13 is recommended).
                 </li>
             </ul>
+
+            <p>
+                Kafka 3.9.0 includes a significant number of new features and fixes.
+                For more information, please read our <a href="https://kafka.apache.org/blog#apache_kafka_390_release_announcement" target="_blank">blog post</a>
+                and the detailed <a href="https://dlcdn.apache.org/kafka/3.9.0/RELEASE_NOTES.html">Release Notes</a>.
+            </p>
 
             <span id="3.8.1"></span>
             <h3 class="download-version">3.8.1<a href="#3.8.1"><i class="fas fa-link " style="color:#053ce2"></i></a></h3>
@@ -49,7 +57,7 @@
                     Released October 29, 2024
                 </li>
                 <li>
-                    <a href="https://downloads.apache.org/kafka/3.8.1/RELEASE_NOTES.html">Release Notes</a>
+                    <a href="https://dlcdn.apache.org/kafka/3.8.1/RELEASE_NOTES.html">Release Notes</a>
                 </li>
                 <li>
                     Docker image: <a href="https://hub.docker.com/layers/apache/kafka/3.8.1/images/sha256-be37a49a4466f6620e2b67614dc2185e35d0e02e5cdc04ad5735ddd368a76b3e">apache/kafka:3.8.1</a>.
@@ -58,13 +66,15 @@
                     Docker Native image: <a href="https://hub.docker.com/layers/apache/kafka-native/3.8.1/images/sha256-ecf23c833391b00803876332b8642e261e675237e133cba8bc6a59ab8292a4a6">apache/kafka-native:3.8.1</a>.
                 </li>
                 <li>
-                    Source download: <a href="https://downloads.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz">kafka-3.8.1-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz.sha512">sha512</a>)
+                    <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                    Source download: <a href="https://dlcdn.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz">kafka-3.8.1-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka-3.8.1-src.tgz.sha512">sha512</a>)
                 </li>
                 <li>
                     Binary downloads:
                     <ul>
-                        <li>Scala 2.12 &nbsp;- <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz">kafka_2.12-3.8.1.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz.sha512">sha512</a>)</li>
-                        <li>Scala 2.13 &nbsp;- <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz">kafka_2.13-3.8.1.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz.sha512">sha512</a>)</li>
+                        <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                        <li>Scala 2.12 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz">kafka_2.12-3.8.1.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.12-3.8.1.tgz.sha512">sha512</a>)</li>
+                        <li>Scala 2.13 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz">kafka_2.13-3.8.1.tgz</a> (<a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.8.1/kafka_2.13-3.8.1.tgz.sha512">sha512</a>)</li>
                     </ul>
                     We build for multiple versions of Scala. This only matters if you are using Scala and you want a version
                     built for the same Scala version you use. Otherwise, any version should work (2.13 is recommended).
@@ -72,9 +82,9 @@
             </ul>
 
             <p>
-                Kafka 3.8.1 includes a significant number of new features and fixes.
+                Kafka 3.8.1 fixes 17 issues since the 3.8.0 release.
                 For more information, please read our <a href="https://kafka.apache.org/blog#apache_kafka_381_release_announcement" target="_blank">blog post</a>
-                and the detailed <a href="https://downloads.apache.org/kafka/3.8.1/RELEASE_NOTES.html">Release Notes</a>.
+                and the detailed <a href="https://dlcdn.apache.org/kafka/3.8.1/RELEASE_NOTES.html">Release Notes</a>.
             </p>
 
             <span id="3.7.2"></span>
@@ -84,19 +94,21 @@
                     Released Dec 13, 2024
                 </li>
                 <li>
-                    <a href="https://downloads.apache.org/kafka/3.7.2/RELEASE_NOTES.html">Release Notes</a>
+                    <a href="https://dlcdn.apache.org/kafka/3.7.2/RELEASE_NOTES.html">Release Notes</a>
                 </li>
                 <li>
                     Docker image: <a href="https://hub.docker.com/layers/apache/kafka/3.7.2/images/sha256-e81f67cd3ca9c018d9b6a2d2354dc6067a5a25908c642383c652f0c6b3e8c4a4">apache/kafka:3.7.2</a>.
                 </li>
                 <li>
-                    Source download: <a href="https://downloads.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz">kafka-3.7.2-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz.sha512">sha512</a>)
+                    <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                    Source download: <a href="https://dlcdn.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz">kafka-3.7.2-src.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka-3.7.2-src.tgz.sha512">sha512</a>)
                 </li>
                 <li>
                     Binary downloads:
                     <ul>
-                        <li>Scala 2.12 &nbsp;- <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz">kafka_2.12-3.7.2.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz.sha512">sha512</a>)</li>
-                        <li>Scala 2.13 &nbsp;- <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz">kafka_2.13-3.7.2.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz.sha512">sha512</a>)</li>
+                        <!-- Note that source/binary downloads should point to `dlcdn.apache.org` but checksum files must point to `downloads.apache.org` -->
+                        <li>Scala 2.12 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz">kafka_2.12-3.7.2.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz.sha512">sha512</a>)</li>
+                        <li>Scala 2.13 &nbsp;- <a href="https://dlcdn.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz">kafka_2.13-3.7.2.tgz</a> (<a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz.asc">asc</a>, <a href="https://downloads.apache.org/kafka/3.7.2/kafka_2.13-3.7.2.tgz.sha512">sha512</a>)</li>
                     </ul>
                     We build for multiple versions of Scala. This only matters if you are using Scala and you want a version
                     built for the same Scala version you use. Otherwise any version should work (2.13 is recommended).
@@ -104,8 +116,8 @@
             </ul>
     
             <p>
-                Kafka 3.7.2 includes a significant number of new features and fixes.
-                For more information, please read the detailed <a href="https://downloads.apache.org/kafka/3.7.2/RELEASE_NOTES.html">Release Notes</a>.
+                Kafka 3.7.2 fixes 22 issues since the 3.7.1 release.
+                For more information, please read the detailed <a href="https://dlcdn.apache.org/kafka/3.7.2/RELEASE_NOTES.html">Release Notes</a>.
             </p>
 
         <h2>Archived releases</h2>
@@ -171,8 +183,8 @@
                 </li>
             </ul>
     
-            <p>
-                Kafka 3.7.1 includes a significant number of new features and fixes.
+            <p
+                Kafka 3.7.1 fixes 64 issues since the 3.7.0 release.
                 For more information, please read our <a href="https://kafka.apache.org/blog#apache_kafka_371_release_announcement" target="_blank">blog post</a>
                 and the detailed <a href="https://archive.apache.org/dist/kafka/3.7.1/RELEASE_NOTES.html">Release Notes</a>.
             </p>
